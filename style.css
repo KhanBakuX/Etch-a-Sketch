@@ -3,9 +3,45 @@
   padding: 0;
 }
 
+nav {
+  text-align: center;
+  font-size: 36px;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+.flex-container-centring {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container {
+  margin: 40px;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  height: auto;
+  width: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  border-radius: 5px;
+}
+
 .grid-container {
-  width: 960px;
-  height: 960px;
+  margin: 40px;
+  width: 480px;
+  height: 480px;
   border: 10px solid;
   display: flex;
   flex-wrap: wrap;
